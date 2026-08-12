@@ -1,0 +1,12 @@
+-r requirements.txt
+
+# --- Testing ---------------------------------------------------------
+aiosqlite==0.22.1
+httpx==0.28.1
+pytest==9.1.1
+pytest-asyncio==1.4.0
+pytest-cov==7.1.0
+
+# --- Dev tooling (lint/format, optional) ---------------------------------
+ruff>=0.9
+mypy>=1.14
